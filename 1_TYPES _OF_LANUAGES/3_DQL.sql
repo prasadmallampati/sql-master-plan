@@ -12,4 +12,17 @@
 
 # example
 
-select * from 
+select * from registrations;
+
+select * from logins;
+
+
+
+# col1 likewise
+
+
+select  reg_id,name from registrations;
+
+
+
+select log_id ,name from logins;
