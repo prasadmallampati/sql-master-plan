@@ -1,0 +1,47 @@
+-- DDL  DATA DEFINTION LANGUAGE 
+-- HERE THE THINGS CREATE,ALTER,RENAME,DROP,TURNCATE
+
+
+-- 1 CREATE :: USED TO CREATE DATABASE/TABLE/VIEW/STORED PROCEDURE/TRIGGER
+	# SYNTAX FOR CREATE  DATABASE AND EXAMPLE
+	/*
+	--	HOW TO CREATE DATABASE, SYNTAX
+    
+        CREATE DATABASE DATABASE_NAME;
+        
+	*/
+    
+    -- EXAMPLE DATABASE CREATION
+    create database SQLMASTER;
+    
+    
+    # HOW TO USE DATABASE 
+    -- USE DATABASE_NAME;
+    
+    -- EXAMPLE 
+    USE SQLMASTER;
+    
+	-- CREATE TABLE SYNTAX AND EXAMPLE
+    
+    /*
+		-- SYNTAX FOR TABLE CREATION
+		CREATE TABLE TABLE_NAME(FILEDS DATATYPE, CONSTRAINTS)
+    
+    */
+	
+    
+	-- EXAMPLE FOR TABLE CREATION
+    
+    create table registrations(reg_id int, name varchar(30));
+    
+    create table logins (log_id int, name varchar(30));
+
+	create table employee(emp_id int primary key,emp_name varchar(50),is_working bool,salary int);
+
+
+-- 2 ALTER  :: USED TO CHANGE STRUCTURE OF TABLE/
+-- 3 RENAME :: USED TO RENAME TABLE/ EXSITING TO NEW  
+-- 4 DROP   :: USED TO DROP EXSITING TABLE INCLUDIG  STRUCTURE ALSO
+-- 5 TRUNCATE :: USED TO TRUNCATE REMOVE ALL ROW OF TABLE,IT WILL LEAVE STRUCTURE OF TABLE INTACT
+
+
