@@ -24,6 +24,10 @@ USE SQLMASTER;
  INSERT INTO registrations values(3,'FLASK');
  insert INTO registrations VALUES(4,'FASTAPI');
  
+ insert into logins values(4,'tableau');
+ insert into logins values(3,'powerbi');
+ insert into logins values(2,'python');
+ insert into  logins values(1,'fastapi');
  
  SELECT * FROM registrations;
 
