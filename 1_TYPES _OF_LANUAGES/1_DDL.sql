@@ -58,7 +58,9 @@
                 where reg_id=1;
                 
                 
-                
+                # TABLE FOR DCL ACTIONS
+                CREATE TABLE DEMO(NAME VARCHAR(20), ID INT);
+                CREATE TABLE DCLUSEAGE(ID INT,NAME VARCHAR(20));
                 
                 -- stored procedure :
                 

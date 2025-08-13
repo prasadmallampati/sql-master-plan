@@ -33,6 +33,10 @@ USE SQLMASTER;
 
 
 
+insert INTO DCLUSEAGE VALUES(1,"PRASAD");
+insert INTO DCLUSEAGE VALUES(2,"NARSI");
+insert INTO DCLUSEAGE VALUES(3,"PALLAVI");
+
 
 -- update is used to modify exsiting data 
 
