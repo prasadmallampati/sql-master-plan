@@ -4,7 +4,7 @@
 
 ---
 
-# SQL Learning Path – B.Tech CSE (2024) Freshers
+# SQL Learning Path 
 
 This repository contains a step-by-step SQL learning path — from the basics to advanced concepts — organized for easy understanding.
 It’s designed for freshers who want to build strong SQL skills for interviews and real-world projects.
