@@ -40,7 +40,7 @@ It’s designed for freshers who want to build strong SQL skills for interviews 
 
 ### 4️⃣ **CRUD Operations**
 
-* **C**reate – INSERT
+* **C**reate – CREATE 
 * **R**ead – SELECT
 * **U**pdate – UPDATE
 * **D**elete – DELETE
